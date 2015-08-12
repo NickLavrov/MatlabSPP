@@ -25,3 +25,6 @@ Here is what each file does in this selection of code:
 * alignment.png - The average velocity of the locusts at each time step. The red line represents the alignment and the marked switch points.
 * switchPercent.png - The percentage of trials that result in a switch for a given number of steps before each the three marked switch points.
 * average.png - An average of the above graph
+
+## My senior thesis
+* Lavrov_2015_SeniorThesis - My thesis, in which the above code played a critical role.

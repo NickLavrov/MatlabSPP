@@ -1,5 +1,5 @@
 # MatlabSPP
-Matlab example code for the Self Propelled Particle (SPPM) Model
+Matlab example code for the Self Propelled Particle (SPP) Model
 
 This is a portion of the work I did on my senior thesis, A Dimensional
 Reduction Analysis of the Self-Propelled Particle Model. Put simply, there are a number of particles or "locusts" on a 1-dimensional ring. At each time step, their motion is governed by one simple rule: update the velocity based on the average velocity of each particle within a certain interaction radius. Some noise is added as well. This results in complex behavior where the whole "swarm" will move clockwise, then switch to counterclockwise after some time, and so forth. My thesis analyzed that behavior, focusing on the points where switches in direction occurred. Mainly, can these seemingly random switches be predicted?

@@ -2,7 +2,9 @@
 Matlab example code for the Self Propelled Particle (SPPM) Model
 
 This is a portion of the work I did on my senior thesis, A Dimensional
-Reduction Analysis of the Self-Propelled Particle Model. Put simply, there are a number of particles or "locusts" on a 1-dimensional ring. At each time step, their motion is governed by one simple rule: update the velocity based on the average velocity of each particle within a certain interaction radius. This results in interesting behavior where the whole "swarm" will move clockwise, then switch to counterclockwise ater some time, and so forth. My thesis analyzed that behavior, focusing on the points where switches in direction occured
+Reduction Analysis of the Self-Propelled Particle Model. Put simply, there are a number of particles or "locusts" on a 1-dimensional ring. At each time step, their motion is governed by one simple rule: update the velocity based on the average velocity of each particle within a certain interaction radius. Some noise is added as well. This results in complex behavior where the whole "swarm" will move clockwise, then switch to counterclockwise after some time, and so forth. My thesis analyzed that behavior, focusing on the points where switches in direction occurred. Mainly, can these seemingly random switches be predicted?
+
+The second portion of my thesis (not posted here) used this information to see how the swarm could be "forced" to switch directions. By identifying switch points and adjusting the velocity of certain locusts, ways in which the alignment (average velocity) could be controlled were explored.
 
 Here is what each file does in this selection of code:
 
